@@ -11,7 +11,32 @@
 		8918566815381FB0003747D0 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8918566715381FB0003747D0 /* ScreenSaver.framework */; };
 		8918567215381FB1003747D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8918567015381FB1003747D0 /* InfoPlist.strings */; };
 		8918567615381FB1003747D0 /* TheHexadecimalClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8918567515381FB1003747D0 /* TheHexadecimalClockView.m */; };
+		8918567D15382030003747D0 /* TheHexadecimalClock.saver in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8918566215381FB0003747D0 /* TheHexadecimalClock.saver */; };
+		89F475C3153A1BDC004B8A03 /* Akagi-TH.otf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 89F475C2153A1BDC004B8A03 /* Akagi-TH.otf */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8918567C15381FFE003747D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "/Users/Chloe/Library/Screen Savers";
+			dstSubfolderSpec = 0;
+			files = (
+				8918567D15382030003747D0 /* TheHexadecimalClock.saver in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8970FCEA1538F0C10024625C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Fonts;
+			dstSubfolderSpec = 7;
+			files = (
+				89F475C3153A1BDC004B8A03 /* Akagi-TH.otf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8918566215381FB0003747D0 /* TheHexadecimalClock.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheHexadecimalClock.saver; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,11 +45,12 @@
 		8918566A15381FB1003747D0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8918566B15381FB1003747D0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8918566C15381FB1003747D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8918566F15381FB1003747D0 /* TheHexadecimalClock-Info.plist */ = {isa = PBXFileReference; path = "TheHexadecimalClock-Info.plist"; sourceTree = "<group>"; };
+		8918566F15381FB1003747D0 /* TheHexadecimalClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheHexadecimalClock-Info.plist"; sourceTree = "<group>"; };
 		8918567115381FB1003747D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8918567315381FB1003747D0 /* TheHexadecimalClock-Prefix.pch */ = {isa = PBXFileReference; path = "TheHexadecimalClock-Prefix.pch"; sourceTree = "<group>"; };
-		8918567415381FB1003747D0 /* TheHexadecimalClockView.h */ = {isa = PBXFileReference; path = TheHexadecimalClockView.h; sourceTree = "<group>"; };
+		8918567315381FB1003747D0 /* TheHexadecimalClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheHexadecimalClock-Prefix.pch"; sourceTree = "<group>"; };
+		8918567415381FB1003747D0 /* TheHexadecimalClockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheHexadecimalClockView.h; sourceTree = "<group>"; };
 		8918567515381FB1003747D0 /* TheHexadecimalClockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheHexadecimalClockView.m; sourceTree = "<group>"; };
+		89F475C2153A1BDC004B8A03 /* Akagi-TH.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Akagi-TH.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +69,7 @@
 		8918565515381FAF003747D0 = {
 			isa = PBXGroup;
 			children = (
+				89F475C2153A1BDC004B8A03 /* Akagi-TH.otf */,
 				8918566D15381FB1003747D0 /* TheHexadecimalClock */,
 				8918566415381FB0003747D0 /* Frameworks */,
 				8918566315381FB0003747D0 /* Products */,
@@ -119,6 +146,8 @@
 				8918565E15381FB0003747D0 /* Headers */,
 				8918565F15381FB0003747D0 /* Resources */,
 				8918566015381FB0003747D0 /* Rez */,
+				8918567C15381FFE003747D0 /* CopyFiles */,
+				8970FCEA1538F0C10024625C /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -290,6 +319,7 @@
 				8918567B15381FB1003747D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
